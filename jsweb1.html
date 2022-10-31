@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+               body {
+                      
+                     background-image:url(/home/feuji/Downloads/web2.jpeg);
+                      background-attachment:fixed;
+                      background-size:100%,100%;
+ }
+ 
+               .p{
+                  background-color:#36ccd1;
+                   background-position:center;
+                   text-align:center;
+                   margin-left:400px;
+                   margin-right:400px;
+                    border-radius: 45px;
+                   padding:30px;
+                      
+                }
+                
+                input{
+                border-radius:10px;
+                
+               } 
+               .k{
+               
+               text-align:right;
+               }
+               
+               
+</style>
+<body>
+<div class=p >
+                  <h1>LOGIN NOW</h1>
+                  user name:<input type="text" name="accountnumber" id="accountnumber"> <br><br><br>
+
+                  <label for="password">password</label>
+                  <input type="password" id="password"> <br><br><br>
+                  
+   <div ><p class=k>  <u>forgot password</u></p><br><br><br><br>
+                  <button onclick="msg()" >login</button><br><br><br><br></div>
+                  
+                  <button style="background-color:#5de8ca">Don't have an account please signup</button>
+</p>
+ <script>
+       function msg(){
+          var accountnumber=document.getElementById("accountnumber").value;
+          var password=document.getElementById("password").value;
+           
+          if(accountnumber==123456 && password== "lav" ||accountnumber==1234567 && password=="pav"  )
+          {
+             alert("WELCOME TO YOUR ACCOUNT");
+          }
+          else
+          {
+          alert("ACCOUNT DETAILS ARE INCORRECT");
+          }
+}
+</script>                           
+
+
+</body>
+</html>
+
