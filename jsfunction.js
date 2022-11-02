@@ -6,6 +6,7 @@
  var acc2="456789";
  var pw1="lav";
  var pw2="pav";
+ var transaction1=[];
  
  
     function msg(){
@@ -29,11 +30,11 @@
         function condition(accountnumber,password){
 			
 			
-			var c=prompt("Welcome to your account \n 1.checking balance \n 2.withdraw money \n 3.deposit funds \n    4.exit");
+			var c=prompt("Welcome to your account \n 1.checking balance \n 2.withdraw money \n 3.deposit funds \n   4.Transaction\n 5.exit");
 						
 			switch(c){
 			
-			       case "1":
+			        case "1":
 				            balance(accountnumber,password); 
 				            break;                               
 				case "2":                  
@@ -43,6 +44,9 @@
 				            deposit(accountnumber,password);
 				            break;
 				case "4":
+				           transaction(accountnumber,password);
+				           break; 
+				case "5":
 				              logout(accountnumber,password);
 				              break;
 				              }
@@ -72,6 +76,7 @@
 						else{
 						amount1=amount1-wm;
 						alert("your balance is:"+amount1);
+						transaction1.push("withdraw="+wm+"total amount="+amount1+"\n");
 						condition(accountnumber,password);
 						}
 						}
@@ -83,6 +88,7 @@
 						else{
 						amount2=amount2-wm;
 						alert("your balance is:"+amount2);
+		transaction1.push("withdraw="+wm+"total amount="+amount2+"\n");
 						condition(accountnumber,password);
 							}
 							}
@@ -95,13 +101,19 @@
 						
 							amount1+=parseInt(dp);
 							alert("total money"+amount1);
+                                      transaction1.push("deposit="+dp+"total amount="+amount1+"\n");
 							condition(accountnumber,password);
 							}
 							else{
 							amount2+=Number(dp);
 							alert("total money"+amount2);
+				transaction1.push("deposit="+dp+"total amount="+amount2+"\n");
 							condition(accountnumber,password);
 							}
+							}
+							function transaction(accountnumber,password){
+							alert(transaction1);
+							condition(accountnumber,password);
 							}
 				function logout(accountnumber,password){
 				alert("log out");
