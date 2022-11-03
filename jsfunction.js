@@ -88,7 +88,7 @@
 						else{
 						amount2=amount2-wm;
 						alert("your balance is:"+amount2);
-		transaction1.push("withdraw="+wm+"total amount="+amount2+"\n");
+		          transaction1.push("withdraw="+wm+"total amount="+amount2+"\n");
 						condition(accountnumber,password);
 							}
 							}
