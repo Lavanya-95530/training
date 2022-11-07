@@ -95,7 +95,8 @@
 							}
 							
 				function deposit(accountnumber,password){
-				var dp=prompt("deposit amount");
+	
+	  			var dp=prompt("deposit amount");
 				
 						if(accountnumber==acc1 && password==pw1){
 						
@@ -117,7 +118,7 @@
 							}
 				function logout(accountnumber,password){
 				alert("log out");
-				Window.location="js3function.html"			
+				location.reload();			
 				}
 							
 			

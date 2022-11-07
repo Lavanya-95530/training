@@ -21,7 +21,7 @@ var amount1=20000;
           }
           else
           {
-         Window.location="js3function.html"
+         Window.location="js3function.html";
           }
         }
 
@@ -104,7 +104,7 @@ var amount1=20000;
 							}
 				function logout(accountnumber,password){
 				alert("log out");
-				Window.location="js3function.html"			
+				location.reload();			
 				}
 
 
