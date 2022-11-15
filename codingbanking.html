@@ -1,0 +1,488 @@
+<html>
+<head>
+<title>Login page</title>
+
+<style>
+.web{
+background-color:black;
+}
+.main{
+background-color:#3248a8;
+height:400px;
+width:50%;
+
+}
+button{
+display:block;
+background-color:#32a889;
+color:white;
+font-size:30px;
+padding:10px;
+margin:auto;
+width:30%;
+height:70px;
+margin-top:100px;
+
+} 
+.active,button:hover{
+ background-color:#a7abaa;
+ cursor:pointer;
+ }
+
+
+               .p{
+               display:none;
+
+                  background-color:white;
+                   background-position:center;
+                   text-align:center;
+                   float:center;
+                   margin-left:33%;
+                   color:black;
+                   width:30%;
+                   height:450px;
+                   margin-top:150px; 
+                   padding:30px;
+                    border-radius:10px;   
+                }
+
+                .input{
+                height:40px;
+                width:70%;
+                border:2px solid black;
+                border-radius:10px;
+                float:center;
+                border:none;
+               background-color:#d3d6d2;
+               }
+
+               .k{
+
+               float:right;
+               color:red;
+               width:40%;
+               margin-right:35px;
+               }
+
+               .button{
+
+               height:40px;
+               width:70%;
+
+                background-color:#4c0099;
+                font-weight:bold;
+                 color:white;
+                border-radius:10px;
+               }
+               .me{
+               float:left;
+               width:40%;
+               margin-left:30px;
+               }
+               sign{
+              text-align:center;
+              width:700px;
+               }
+               .disappear{
+               display:block;
+               }
+
+
+
+
+ .main3{
+         background-color:#150da3;
+         width:1200px;
+         margin:auto;
+         display:none;
+         }
+
+ .atm{
+ margin-top:2%;
+ }
+ h1{
+ color:white;
+ }
+ h3{
+ color:#3297a8;
+}
+
+h2{
+	float:right;
+	color:white;
+	margin-top:-40px;
+        font-weigth:bold;
+        margin-right:3%;
+}
+.welcome{
+float:left;
+width:25%;
+}
+
+
+
+.getcash
+{
+
+
+    float:right;
+    width:70%;
+    height:500px;
+
+
+
+    }
+
+
+
+
+    .btclass{
+    background-color:#3297a8;
+        width:45%;
+
+    color:white;
+    margin:2%;
+    font-weight:bold;
+    font-size:22px;
+    height:110px;
+
+    }
+
+    .lastone{
+    background-color:#b54597;
+
+    float:right;
+    text-align:center;
+    color:white;
+    width:66.5%;
+    margin-right:27px;
+    margin-top:70px;
+    height:90px;
+
+    }
+p{
+color:black;
+font-size:30px;
+}
+
+
+					.options1{
+							height:300px;
+							width:40%;
+							background-color:blue;
+					}
+
+					.options2{
+							height:200px;
+							width:30px;
+
+							margin-top:50px;
+
+					}
+					.names1{
+							height:50px;
+							width:250px;
+							background-color:red;
+							margin-top:20px;
+							font-size:20px;
+						}
+						.names2{
+							height:50px;
+							width:250px;
+							background-color:red;
+							margin-top:20px;
+							font-size:20px;
+						}
+						.names3{
+							height:50px;
+							width:250px;
+							background-color:red;
+							margin-top:20px;
+							font-size:20px;
+
+
+						}
+.withdraw{
+display:none;
+}
+.deposit{
+display:none;
+}
+.transaction{
+display:none;
+}
+							.page5{
+							display:none;
+							background-color:#39609e;
+							height:500px;
+							width:50%;
+							}
+							.row{
+							background-color:yellow;
+							color:pink;
+							font-size:30px;
+							width:100%;
+							}
+
+
+
+
+</style>
+
+</head>
+
+<body class="web">
+<center><div class="main" id="main1">
+<button id="mybtn" >LOGIN </button>
+<button >REGISTER</button>
+</div></center>
+
+
+<div class=p id="main2" >
+                  <p>LOGIN NOW</p><br><br>
+                  <input  class="input" type="text" placeholder="accountnumber" id="accountnumber"> <br><br>
+                  <input  class="input" type="password"  placeholder="password" id="password"> <br><br>
+
+
+
+
+   <h4   class="me" >Remember me</h4>
+ <h4  class="k"><u>forgot password</u></h4><br><br> <br> <br>
+                  <button class="button"  id="mybtn2" onclick="msg2()" > LOGIN</button><br>
+
+                  <h4 class="sign">  Don't have an account please signup </h4>
+ </div>
+
+</p>
+
+<div class="main3" id="page3">
+<div>
+<h1 class="atm">ATM</h1>
+<h2>LOGOUT</h2><br><br><br>	
+</div>
+
+<div >
+
+       <div  class="welcome">
+                            <h3>WELCOME</h3>
+                            <h1>Lavanya</h1><br>
+                            <h3>Account#1</h3>
+                            <h1 id="amt"> $5.67</h1><br>
+
+             </div>
+
+
+                          <div class="getcash"  >
+                          <button id="wd" class="btclass">withdraw</button>
+                         <button id="dw" class="btclass">Deposit</button><br><br>
+                         <button id="ts" class="btclass" >Transaction</button>
+                         </div>
+       </div>
+       </div>
+<center>
+<div class="withdraw" id="withdraw1">
+	<div class="options1">
+	<label class="options2">WITHDRAW</label><br>
+	<input type="numeric" id="withdraw2">		
+	<button class="names1">WITHDRAW</button>
+</div>
+</center>
+//-----------------------------------
+<center>
+<div class="deposit" id="deposit1">
+	<div class="options1">
+	<label class="options2">DEPOSIT</label><br>
+	<input type="numeric" id="deposit2">		
+	<button class="names2">DEPOSIT</button>
+</div>
+</center>
+//------------------------------------------
+
+
+
+
+
+
+					<div class="page5" id="last">
+						<table class="row">
+						<tr>
+						<th> sno</th>
+						<th> Type</th>
+						<th> Amounts</th>
+						<th> Balance</th>
+						</tr>
+						</table>
+					</div>
+						
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+
+document.querySelector("#mybtn").addEventListener("click",first);
+function first(){
+document.querySelector(".p").style.display="block";
+document.querySelector("#main1").style.display="none";
+}
+
+var accno; 
+var pwdno;
+var amount=20000;
+transaction5=[];
+i=0;
+function msg2(){
+accno=document.getElementById("accountnumber").value;
+ pwdno=document.getElementById("password").value;
+if(accno=="123456"&&pwdno=="123"){
+
+document.querySelector(".p").style.display="none";
+
+document.querySelector("#page3").style.display="block";
+}
+else{
+
+
+alert("enter correct details");
+}
+}
+document.querySelector("#wd").addEventListener("click",withdraw);
+function withdraw(){
+document.querySelector(".btclass").style.display="block";
+}
+
+document.querySelector("#dw").addEventListener("click",deposite);
+function deposite(){
+document.querySelector(".btclass").style.display="block";
+}
+document.querySelector("#ts").addEventListener("click",deposite);
+function deposite(){
+document.querySelector(".btclass").style.display="block";
+}
+
+
+var withdraw123=document.getElementById("wd");
+var deposit123=document.getElementById("dw");
+var transaction123=document.getElementById("ts");
+var withdraw456=document.getElementById("withdraw1");
+var deposit456=document.getElementById("deposit1");
+var transaction456=document.getElementById("transaction1");
+
+
+
+var  display=document.getElementById("amt");
+var wamount;
+
+ withdraw123.addEventListener("click",withdrawfunction);
+function withdrawfunction(){
+document.getElementById("page3").style.display="none";
+withdraw456.style.display="block";
+
+document.querySelector(".names1").onclick=function(){
+      wamount=document.getElementById("withdraw2").value;
+     
+     alert(wamount);
+     withdraw789();
+       
+     }
+     
+     }
+     
+     
+function withdraw789(){
+  if(wamount>amount){
+	alert("you have insufficient amount");
+	}
+      else{
+       amount=amount-wamount;
+	alert("your balance is:"+amount);
+   display.innerHTML=amount; 
+    transaction5.push({ sno:i+1,Type:"Withdraw",Amounts:amount,Balance:amount});
+console.log(transaction5);
+}
+withdraw456.style.display="none";
+document.getElementById("page3").style.display="block";
+
+}
+							
+							
+							 deposit123.addEventListener("click",depositfunction);
+
+												        
+							function depositfunction(){
+							document.getElementById("page3").style.display="none";
+							deposit456.style.display="block";
+
+							document.querySelector(".names2").onclick=function(){
+							      damount=document.getElementById("deposit2").value;
+							     
+							      deposit789();
+							     }
+							     }
+							 
+							       
+							     
+							     
+							     
+
+
+						function deposit789(){
+						
+						  amount+=parseInt(damount);
+							alert("total money:"+amount);
+						      
+							
+						     display.innerHTML=amount;
+						         transaction5.push({sno:i+1,Type:"Deposit",Amounts:amount,Balance:amount}); 
+						  console.log(transaction5); 
+                       				deposit456.style.display="none";
+						document.getElementById("page3").style.display="block";
+                                     
+					}
+
+                                       
+
+
+		                       
+					
+					
+					
+					
+					
+					
+					
+var lastone=document.getElementById("last");
+ transaction123.addEventListener("click",transactionfunction);
+function transactionfunction(){
+document.getElementById("page3").style.display="none";
+lastone.style.display="block";
+
+var tbl=document.querySelector(".row")
+for(let k=0;k<transaction5.length;k++){
+var output=document.getElementsByTagName("tr");
+tbl.innerHTML+=`<tr>
+<th>${k+1}</th>
+<th>${transaction5[k].Type}</th>
+<th>${transaction5[k].Amounts}</th>
+<th>${transaction5[k].Balance}</th>
+</tr>`
+}
+}
+
+
+
+</script>
+
+
+</body>
+
+</html>
