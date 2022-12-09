@@ -1,0 +1,69 @@
+<html>
+<head>
+<style>
+
+.model1{
+background-color: pink;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  display:none;
+}
+cross{
+   color:black;
+   float:right;
+   font-size:30px;
+   }
+   .cross:hover{
+   cursor:pointer;
+   color:red;
+   }
+   
+</style>
+</head>
+<body>
+<center>
+<label for="username">USERNAME</label>
+<input type="text" class="name1" id="user1"></input><br><br>
+<input type="button" value="submit"  class="btn"></input>
+</center>
+<div class="model1">
+<p>It accepts only 10 letters,the length is extended</p>
+
+<input type="button" value="ok" onclick="ok()" ></input>
+<input type="button" value="cancel"></input>
+ <span class="cross" id="sp">&times;</span> 
+</div>
+
+
+<script>
+var userinput;
+var btn1=document.querySelector(".btn");
+var user3=document.querySelector(".name1");
+var model3=document.querySelector(".model1");
+ var userinput;
+
+btn1.onclick= function(){
+userinput=user3.value;
+if(userinput.length>10)
+{
+//console.log(user3);
+model3.style.display="block";
+
+}
+
+}
+
+function ok(){
+userinput=userinput.slice(0,10);
+console.log(userinput);
+user3.value=userinput;
+}
+
+document.querySelector("#sp").onclick=function(){
+	document.querySelector(".model1").style.display="none";
+	}
+</script>
+</body>
+</html>
