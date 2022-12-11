@@ -1,0 +1,18 @@
+<html>
+<body>
+<script>
+
+let xmlrequest=new XMLHttpRequest();
+xmlrequest.open("GET","https://jsonplaceholder.typicode.com/users/");
+xmlrequest.send();
+xmlrequest.addEventListener("load",function(){
+console.log(this.responseText);
+console.log(JSON.parse(this.responseText));
+if(xmlrequest.status===404){
+alert("server not found");
+}
+});
+
+</script>
+</body>
+</html>

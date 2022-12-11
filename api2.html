@@ -1,0 +1,20 @@
+
+
+<html>
+<head>
+</head>
+<body>
+<script>
+var xmlrequest=new XMLHttpRequest();
+
+xmlrequest.open("GET","https://jsonplaceholder.typicode.com/users");
+
+xmlrequest.send();
+
+xmlrequest.addEventListener("load",function(){
+console.log(this.responseText);
+console.log(JSON.parse(this.responseText));
+});
+</script>
+</body>
+</html>
