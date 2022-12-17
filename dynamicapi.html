@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color:aqua;
+            clear: both;
+        }
+        table{
+            border-collapse: collapse;
+           
+        }
+        
+        fieldset{
+            position:relative;
+            max-width: fit-content;
+            margin:auto;
+            background-color:bisque;
+            color:black;
+            display: inline;
+            border-radius: 20px ;
+            margin-left: 38%;
+            margin-top: 6%;
+        }
+        
+        
+        h1{
+            text-transform: uppercase;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: red;
+            margin-top: 5%;
+            
+        }
+        input{
+            border-radius:20px;
+           
+        }
+       .tableDiv{
+            display: none;
+            border: 3px solid black;
+            max-width: fit-content;
+            margin-left: 34%;
+            
+        }
+    </style>
+</head>
+<body >
+ <h1>contact details</h1>
+
+
+ <div class="tab">
+    <form >
+        <fieldset>
+            <legend>Details</legend>
+        Name:<input type="text" id="name" placeholder="full name"><br><br>
+        Contact :<input type="text" id="contact" placeholder="phone number" ><br><br>
+        Mail_id:<input type="text"  id="mailid" placeholder="@feuji.com"><br><br>
+        DOB:<input type="date" id="dob" ><br><br>
+        <input type="button" value="Add to contacts" id="add">
+        <input type="button" value="Replace" id="change">
+
+     </fieldset>
+  </form>
+</div>
+
+ 
+    <table class="tableDiv" border="2" >
+        <tr>
+        <th>Name</th>
+        <th>Contact</th>
+        <th>Mail-id</th>
+        <th>DOB</th>
+        <th>Delete</th>
+        <th>Replace</th>
+        </tr>
+        <tbody id="demo"></tbody>
+        </table>
+    </div>
+
+    
+ 
+   <script src="dynamic.js"></script>
+</body>
+</html>
