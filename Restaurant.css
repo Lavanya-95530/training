@@ -1,0 +1,88 @@
+ body{
+    width:100%;
+    height: 100%;
+    background-color: aliceblue;
+    margin:auto;
+} */
+.mainDiv{
+    background-color: #d5d8db;
+
+}
+.headerDiv{
+    background-color:#e8eaeb;
+
+}
+.order{
+    float:left;
+    
+}
+.value12{
+    border-radius: 10px;
+background-color: #d5d8db;
+
+}
+.current{
+    display:inline;
+    margin-left:10px;
+    
+}
+/* .mainContentDiv{
+    background-color:black;
+     */
+
+
+.leftContent{
+    width:63%;
+    
+    float:left;
+}
+.rightContent{
+    width:35%;
+    background-color:#d2d6d2;
+   
+    float:right;
+}
+.item1,.item2,.item3,.item4,.item5{
+    height:110px;
+    width:130px;
+    background-color:#d5d8db;
+    border:3px solid white;
+     float:left; 
+     padding:20px;
+     text-align:center;
+}
+.clear{
+    float:right;
+    margin-right:10px;
+}
+.max{
+    float:left;
+    margin-left:5px;
+}
+.textArea{
+   height:30px;
+   width:96%; 
+   margin-left:5px;
+
+}
+.ticket{
+    float:left;
+    background-color:cornflowerblue;
+    height: 31px;
+    width: 200px;
+    margin-left: 24px;
+}
+.charge{
+    float:right;
+    background-color:darkolivegreen;
+    height: 31px;
+    width: 200px;
+}
+.wdth{
+    width:30px;
+}
+td{
+    padding:5px;
+    width:30%;
+}
+
