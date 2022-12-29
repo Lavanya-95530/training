@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    }
+    body{
+        width:1200px;
+        margin:auto;
+        /* background-color: aqua; */
+        font-family: 'Work Sans', "sans-serif";
+        
+    }
+    header{
+        width:100%;
+        background-color:#FFF7F4;
+        height: 85px;;
+    }
+    .digiency{
+        float:left;
+    bottom:5px;
+    width: 410px;
+    padding:13px;
+    /* position:relative; */
+    top:20px;
+    }
+.home{
+float:left;
+    width:70px;
+    padding:20px;
+    /* position:relative; */
+    top:20px;
+    color:orangered;
+}
+
+.aboutUs{
+float:left;
+    width:112px;
+    padding:20px;
+    /* position:relative; */
+    top:20px;
+    }
+
+
+.services{
+float:left;
+    width:90px;
+    padding:20px;
+    /* position:relative; */
+    top:20px;
+    }
+
+
+
+.portfolio{
+float:left;
+    width:90px;
+    padding:20px;
+    /* position:relative; */
+    top:20px;
+    }
+
+
+
+.biog{
+float:left;
+    width:67px;
+    padding:20px;
+    /* position:relative; */
+    top:20px;
+    letter-spacing: 2px;
+    }
+
+
+.contactUs{
+float:left;
+    width:127px;
+    padding:20px;
+    /* position:relative; */
+    top:20px;
+    }
+
+
+.lets{
+float:left;
+    width:90px;
+    padding:20px;
+    /* position:relative; */
+    top:10px;
+    }
+    .btn{
+        width: 113px;
+    height: 34px;
+    }
+    .img{
+        margin-left:60px;
+        height:36px;
+    }
+.ourservices{
+    text-align:center;
+    color:orangered;
+}
+.clearfix{
+    content:"";
+    width:100%;
+     /* border:2px solid green; */
+} 
+
+ 
+.what{
+    text-align:center;
+    font-size:20px;
+}
+.MainContent{
+    padding-left: 60px;
+    float:left;
+} 
+.title1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+color: #373737;
+}
+.website2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12.8px;
+line-height: 19px;
+color: #7B7B7B;
+}
+
+
+.description1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #7B7B7B;
+}

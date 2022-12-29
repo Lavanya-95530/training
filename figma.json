@@ -1,0 +1,72 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "image": "../CreatingUI/images/ux-interface.png",
+      "image2": "../CreatingUI/images/01.png",
+      "title": "UX Design",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue.consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue."
+    },
+    {
+      "id": 2,
+      "image": "../CreatingUI/images/gaming.png",
+      "image2": "../CreatingUI/images/02.png",
+      "title": "Game Design",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "id": 3,
+      "image": "../CreatingUI/images/design.png",
+      "image2": "../CreatingUI/images/03.png",
+      "title": "Grapic Design",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "id": 4,
+      "image": "../CreatingUI/images/web-design.png",
+      "image2": "../CreatingUI/images/04.png",
+      "title": "Web Design",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "Lorem ipsum doloripsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametsit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue.consec tet ur adipiscing elit.Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "id": 5,
+      "image": "../CreatingUI/images/mobile-development.png",
+      "image2": "../CreatingUI/images/05.png",
+      "title": "App Development",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "Lorem ipsum doloripsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametconsec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue.consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "id": 6,
+      "image": "../CreatingUI/images/digital-marketing.png",
+      "image2": "../CreatingUI/images/06.png",
+      "title": "Digital Marketing",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "Lorem ipsum dolor ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit ametsit amet,Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "Title": "[object HTMLInputElement]",
+      "Subtitle": "[object HTMLInputElement]",
+      "Description": "[object HTMLInputElement]",
+      "Status": "[object HTMLSelectElement]",
+      "id": 7
+    },
+    {
+      "Title": "",
+      "Subtitle": "",
+      "Description": "",
+      "Status": "Active",
+      "id": 10
+    }
+  ]
+}
