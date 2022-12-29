@@ -1,0 +1,37 @@
+.rightContent{
+    width:30%;
+    background-color:#aa94b5;
+    float:left;
+    border-radius:20px;
+}
+.home,.aboutus,.contact,.blog,.portfolio,.services{
+    padding:10%;
+    text-transform: capitalize;
+}
+
+.leftcontent{
+     background-color:bisque; 
+    width:70%; 
+    float:right; 
+    height: 586px;
+    overflow: auto;
+    border-radius:20px;
+}
+
+td,th{
+    
+        border: 1px solid #777;
+        padding: 0.5rem;
+
+}
+button{
+    width:100%;
+    text-align:center;
+    background-color: #e8deda;
+}
+th{
+    background-color: cadetblue;
+}
+tr{
+    background-color: #69a4bf;
+}

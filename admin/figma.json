@@ -1,0 +1,53 @@
+{
+    "services":[
+        {
+
+            "image":"../CreatingUI/images/ux-interface.png",
+            "image2":"../CreatingUI/images/01.png",
+            "title":"UX Design",
+            "website":"Mobile App Website",
+            "description":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+
+        },
+        {
+            "image":"../CreatingUI/images/gaming.png",
+            "image2":"../CreatingUI/images/02.png",
+            "title":"Game Design",
+            "website":"Mobile App Website",
+            "description":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+
+        },
+        {
+            "image":"../CreatingUI/images/design.png",
+            "image2":"../CreatingUI/images/03.png",
+            "title":"Grapic Design",
+            "website":"Mobile App Website",
+            "description":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+
+        },
+        {
+            "image":"../CreatingUI/images/web-design.png",
+            "image2":"../CreatingUI/images/04.png",
+            "title":"Web Design",
+            "website":"Mobile App Website",
+            "description":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+
+        },
+        {
+            "image":"../CreatingUI/images/mobile-development.png",
+            "image2":"../CreatingUI/images/05.png",
+            "title":"App Development",
+            "website":"Mobile App Website",
+            "description":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+
+        },
+        {
+            "image":"../CreatingUI/images/digital-marketing.png",
+            "image2":"../CreatingUI/images/06.png",
+            "title":"Digital Marketing",
+            "website":"Mobile App Website",
+            "description":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+
+        }
+    ]
+}

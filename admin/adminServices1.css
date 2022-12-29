@@ -1,0 +1,42 @@
+.rightContent{
+    width:30%;
+    background-color:#aa94b5;
+}
+.home,.aboutus,.contact,.blog,.portfolio,.services{
+    padding:10%;
+    text-transform: capitalize;
+}
+
+.img1{
+    margin-left:27px;
+}
+
+.form1{
+    text-align: center;
+    background-color: #aa94b5;
+    width: 50%;
+    height: 70%;
+    margin-left:25%;
+    border:4px solid #3271a8;
+}
+
+.addser{
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+}
+.titleform ,.subtitleform ,.descriptionform ,.statusform{
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
