@@ -1,0 +1,81 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "image": "./images/ux-interface.png",
+      "image2": "./images/01.png",
+      "title": "UX Design",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": " tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue."
+    },
+    {
+      "id": 2,
+      "image": "./images/gaming.png",
+      "image2": "./images/02.png",
+      "title": "Game Design",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "Accumsan sed faucibu s faucibus augue. consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "id": 3,
+      "image": "./images/design.png",
+      "image2": "./images/03.png",
+      "title": "Grapic Design",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "id": 4,
+      "image": "./images/web-design.png",
+      "image2": "./images/04.png",
+      "title": "Web Design",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "id": 5,
+      "image": "./images/mobile-development.png",
+      "image2": "./images/05.png",
+      "title": "App Development",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": "  adipiscing elit. Accumsan sed faucibu s faucibus augue.consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+    },
+    {
+      "id": 6,
+      "image": "./images/digital-marketing.png",
+      "image2": "./images/06.png",
+      "title": "Digital Marketing",
+      "website": "Mobile App Website",
+      "status": "active",
+      "description": ". Accumsan sed faucibu s faucibus augue. consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+    }
+  ],
+  "testimonial": [
+    {
+      "id": 1,
+      "starsImg": "./Component1.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..",
+      "titleImg": "./Client Profile (3).png",
+      "imgquote": "./double-quotes-l.png"
+    },
+    {
+      "id": 2,
+      "starsImg": "./Component1.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..",
+      "titleImg": "./Client Profile (3).png",
+      "imgquote": "./double-quotes-l.png"
+    },
+    {
+      "id": 3,
+      "starsImg": "./Component1.png",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..",
+      "titleImg": "./Client Profile (3).png",
+      "imgquote": "./double-quotes-l.png"
+    }
+  ]
+}

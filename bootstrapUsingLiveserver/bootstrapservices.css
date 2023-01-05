@@ -1,0 +1,112 @@
+
+
+
+.ourservices{
+    text-align:center;
+    color:orangered;
+}
+li{
+    list-style: none;
+     /* border:2px solid whitesmoke;  
+   
+    border-radius:10px; */
+}
+.what{
+    text-align:center;
+margin-bottom:40px;
+color: #373737;
+
+}
+.title1{
+   
+ font-weight: 600;
+font-size: 25px; 
+
+color: #373737;
+}
+.website2{
+     
+
+
+color: #7B7B7B;
+
+}
+
+
+.description1{
+
+ 
+
+color: #7B7B7B;
+}
+
+.mains{
+    background-color: #FFF7F4;
+}
+
+.side{
+    background-color: bisque;
+   
+}
+
+.tablecolor{
+    background-color: burlywood;
+}
+.btn{
+    background-color:orangered;
+}
+.imgsize{
+ width: 103%;  
+}
+.lorem{
+    color: #7B7B7B;
+}
+.homecol{
+    color:orangered; 
+}
+.headsize{
+    font-weight: 700;
+}
+.navbottom{
+    margin-bottom:100px;
+}
+.listitems>li{
+    
+  width: 290px;
+  border: 2px solid black;
+  margin: auto 15px auto 15px;      
+}
+.list-width{
+    width: 300px;
+    border: 2px solid oldlace;
+    background-color: white;
+}
+.header-class{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.title-class{
+    color: orangered;
+}
+.main-heading{
+    color:orangered;
+}
+.leftbtn{
+    margin-top: 99px;
+}
+.rightbtn{
+    margin-top: 103px; 
+}
+.personImg-position{
+    width:188px;
+}
+.col-sm-4{
+    border: 2px  solid bisque;
+  
+}
+#listServices{
+    margin: auto 42px 32px auto;
+    width: 318px;
+    height: 350px;
+    background-color: white;
+}
