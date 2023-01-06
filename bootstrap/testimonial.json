@@ -1,0 +1,26 @@
+{
+   "testimonial": [
+    {
+        "id":1,
+        "starsImg":"./Component 1.png",
+        "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..",
+        "titleImg":"Client Profile (1).png",
+        "imgquote":"double-quotes-l.png"
+    },
+    {
+        "id":2,
+        "starsImg":"./Component 2.png",
+        "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..",
+        "titleImg":"Client Profile (2).png"  ,
+        "imgquote":"double-quotes-l.png" 
+    },
+    {
+        "id":3,
+        "starsImg":"./Component 3.png",
+        "content":"Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris..",
+        "titleImg":"Client Profile (3).png"  ,
+        "imgquote":"double-quotes-l.png"
+    }
+
+    ]
+}

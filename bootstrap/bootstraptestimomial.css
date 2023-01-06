@@ -1,0 +1,36 @@
+.header-class{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+body{
+    background: #FFF7F4;
+}
+.title-class{
+    color: orangered;
+}
+.main-heading{
+    color: orangered;
+}  
+.card-width{
+    width: 249px;
+    margin: 10px;
+}
+li{
+  list-style: none;
+  width: 290px;
+  border: 2px solid black;
+  margin: auto 15px auto 15px;
+}
+.list-width{
+    width: 280px;
+}
+.personImg-position{
+    width:188px;
+}
+.leftbtn{
+    margin-top: 99px;
+}
+.rightbtn{
+    margin-top: 103px; 
+}
+
