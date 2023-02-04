@@ -1,0 +1,50 @@
+<html>
+    <body>
+        <script>
+            let coffeePrice=[2.50,3.50,4.80];
+            let teaPrice=[2.80,2.50,3.60];
+            let juicePrice=[3.50,3.50,4.50];
+            let totalbill=0;
+            
+            let stop="end";
+            let userinput;
+            let finalbill=0;
+    do{
+             userinput=prompt("1.coffee \n 2.tea \n 3.juice");
+
+             if(userinput==stop)break;
+
+if(userinput==1){
+    let coffee=prompt("1.expressive-2.50$ \n 2.latte-3.50$ \n 3.capchinoo-4.80$");
+    if(coffee==1||coffee==2||coffee==3){
+        let quantity1=prompt("enter your quantity");
+     totalbill = quantity1*coffeePrice[coffee-1];
+   finalbill+=totalbill;
+    alert( finalbill+"$");    
+    }
+}
+
+else if(userinput==2){
+    let tea=prompt("1.greentea-2.80$ \n 2.Blacktea-2.50$ \n 3.Normaltea-3.60$");
+    if(tea==1||tea==2||tea==3){
+        let quantity2=prompt("enter your quantity");
+        totalbill = quantity2*teaPrice[tea-1];
+   finalbill+=totalbill;
+    alert( finalbill+"$");
+    }
+}
+else {
+    let juice=prompt("1.orangejuice-3.50$ \n 2.Applejuice-3.50$ \n 3.grapejuice-4.50$");
+    if(juice==1||juice==2||juice==3){
+        let quantity3=prompt("enter your quantity");
+        totalbill = quantity3*juicePrice[juice-1];
+   finalbill+=totalbill;
+    alert( finalbill+"$"); 
+    }
+}
+    
+    }while(userinput!=stop);
+
+        </script>
+    </body>
+</html>
