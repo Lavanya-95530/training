@@ -1,0 +1,108 @@
+{
+  "Student": [
+    {
+      "studentName": "657",
+      " rollNo": "877689",
+      " physicsMarks": "7978070}",
+      "chemistryMarks": "",
+      "computerscienceMarks": "",
+      "id": 1
+    },
+    {
+      "studentName": "pavani",
+      " rollNo": "877689",
+      " physicsMarks": "7978070}",
+      "chemistryMarks": "",
+      "computerscienceMarks": "",
+      "id": 2
+    },
+    {
+      "studentName": "",
+      " rollNo": "",
+      " physicsMarks": "}",
+      "chemistryMarks": "",
+      "computerscienceMarks": "",
+      "id": 3
+    },
+    {
+      "studentName": "",
+      " rollNo": "uio",
+      " physicsMarks": "}",
+      "chemistryMarks": "",
+      "computerscienceMarks": "",
+      "id": 4
+    },
+    {
+      "studentName": "",
+      " rollNo": "gkmujgkiug",
+      " physicsMarks": "}",
+      "chemistryMarks": "",
+      "computerscienceMarks": "",
+      "id": 5
+    },
+    {
+      "studentName": "wewt",
+      " rollNo": "6",
+      " physicsMarks": "657}",
+      "chemistryMarks": "6778",
+      "computerscienceMarks": "58798",
+      "id": 6
+    },
+    {
+      "studentName": "Lavanay",
+      " rollNo": "5",
+      " physicsMarks": "5656}",
+      "chemistryMarks": "768",
+      "computerscienceMarks": "758789",
+      "id": 7
+    },
+    {
+      "studentName": "Lava",
+      " rollNo": "5",
+      " physicsMarks": "46556}",
+      "chemistryMarks": "54767",
+      "computerscienceMarks": "56768",
+      "id": 8
+    },
+    {
+      "studentName": "Lava",
+      " rollNo": "6",
+      " physicsMarks": "657}",
+      "chemistryMarks": "56787",
+      "computerscienceMarks": "56878",
+      "id": 9
+    },
+    {
+      "studentName": "Lava",
+      " rollNo": "6",
+      " physicsMarks": "57}",
+      "chemistryMarks": "67",
+      "computerscienceMarks": "56768",
+      "id": 10
+    },
+    {
+      "studentName": "Lava",
+      " rollNo": "6",
+      " physicsMarks": "6556}",
+      "chemistryMarks": "65",
+      "computerscienceMarks": "567",
+      "id": 11
+    },
+    {
+      "studentName": "Lava",
+      " rollNo": "6",
+      " physicsMarks": "6556}",
+      "chemistryMarks": "65",
+      "computerscienceMarks": "567",
+      "id": 12
+    },
+    {
+      "studentName": "Lava",
+      " rollNo": "6",
+      " physicsMarks": "77}",
+      "chemistryMarks": "678",
+      "computerscienceMarks": "5678",
+      "id": 13
+    }
+  ]
+}
