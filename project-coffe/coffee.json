@@ -1,0 +1,77 @@
+{
+    "items":[
+        {
+            "name":"COFFEE",
+            "image":"./coeffeimg2.jpg"
+        },
+        {
+            "name":"TEA",
+            "image":"./coffeeimg3.jpg"
+        },
+        {
+            "name":"JUICE",
+            "image":"./juiceimg1.avif"
+        }
+    ],
+    "coffee":[
+        {
+            "name":"ESSPRESSO",
+            "image":"./coffee.png",
+            "tag":"Today's good mood is sponsered by coffee",
+            "cost":"3.50"
+        },
+        {
+            "name":"CAPPUCHUNO",
+            "image":"./coffeeimg3.jpg",
+            "tag":"Today's good mood is sponsered by coffee",
+            "cost":"4.50"
+
+        },
+        {
+            "name":"LATTE",
+            "image":"./coffeeimg2.jpg",
+            "tag":"Today's good mood is sponsered by coffee",
+            "cost":" 2.50"
+        }
+    ],
+    "tea":[
+        {
+            "name":"BLACK TEA",
+            "image":"./tea.jpg",
+            "tag":"A cup tea is a solution for everything", 
+            "cost":2.50
+        },
+        {
+            "name":"GREEN TEA",
+            "image":"./tea2.jpg",
+            "tag":"A cup tea is a solution for everything",
+            "cost":4.50
+        },
+        {
+            "name":"NORMAL TEA",
+            "image":"./coffee3.jpg",
+            "tag":"A cup tea is a solution for everything",
+            "cost":3.50
+        }
+    ],
+    "juice":[
+        {
+            "name":"APPLE",
+            "image":"./juice.jpg",
+            "tag":"Anyone can count the seeds in an apple, but only God can count the number of apples in a seed.",
+            "cost":2.50
+        },
+        {
+            "name":"ORANGE",
+            "image":"./juice1.jpg",
+            "tag":"Breakfast without orange juice is like a day without sunshine. ...",
+            "cost":3.50
+        },
+        {
+            "name":"GRAPE",
+            "image":"./juice3.jpg",
+            "tag":"Gossip is a grapevine that grows only sour grapes. ", 
+            "cost":4.50
+        }
+    ]
+}

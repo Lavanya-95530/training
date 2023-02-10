@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;  
+}
+ body{
+    /* background-color: rgb(107, 123, 113); */
+    /* background-image:url("voilet.avif"); */
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     /* background-attachment: fixed; */
+     background-image: url(./mainbackground.avif);
+ }
+a{
+    text-decoration: none;
+}
+.menudiv{
+    /* background-color: bisque; */
+    background-image: url(./background.jpg);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 15px;
+    margin-top: 10%;
+}
+.heading{
+    text-align: center;
+}
+.coeffe-img{
+    float: left;
+    width: 0%;
+    /* margin-left: 10%; */
+}
+.coffee{
+   float: right;
+   width: 60%;
+   margin-top: 20px;
+   padding: 40px;
+   /* margin-right: 10%; */
+}
+.coffee-heading{
+    background-color:peru ;
+    text-align: center;
+    border-radius: 5px;
+}
+.coffeediv{
+    /* background-color: plum; */
+}
+.coffeediv::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.juice{
+    /* width: 313px; */
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  
+    margin-left: 34px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+
+    }
+
+hr{
+   border:2px solid black; 
+}
+.logo{
+    height: 250px;
+    border-radius: 5px;
+    width: 100%;
+   /* margin-left: 40%; */
+   /* border-radius: 70px; */
+}
+.logodiv{
+    text-align: center;
+}
+.subItems{
+    width: 100%;
+    border: 5px solid red;
+    /* display: none; */
+}
+.btn{
+    height: 20px;
+    width:84px;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color:palevioletred;   
+}
+.billDiv{
+    height: 40%;
+    width: 40%;
+    /* background-color: blanchedalmond; */
+    background-image: url(./minibackground.jpeg);
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 10%;
+}
+.forward{
+    float:left;
+}
+.backward{
+    float:right;
+}
+.quantity1{
+   padding:1%;
+} 
+.bill{
+margin-left:40%;
+}
