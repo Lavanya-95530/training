@@ -1,0 +1,423 @@
+{
+  "items": [
+    {
+      "name": "Idle",
+      "price": 20,
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "name": "Chapathi",
+      "price": 30,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "name": "Dosa",
+      "price": 30,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "name": "Wada",
+      "price": 25,
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "name": "Puri",
+      "price": 30,
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "name": "Veg_Fried_Rice",
+      "price": 80,
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "name": "Non_veg_Fried_Rice",
+      "price": 110,
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "name": "Veg_Biryani",
+      "price": 90,
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "name": "Non_Veg_Biryani",
+      "price": 150,
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "name": "Meals",
+      "price": 70,
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "name": "Egg",
+      "price": 90,
+      "quantity": 1,
+      "id": 11
+    },
+    {
+      "name": "chicken",
+      "price": 140,
+      "quantity": 1,
+      "id": 12
+    },
+    {
+      "name": "fried_fry ",
+      "price": 70,
+      "quantity": 1,
+      "id": 13
+    },
+    {
+      "name": "pani_puri ",
+      "price": 50,
+      "quantity": 1,
+      "id": 14
+    },
+    {
+      "name": "noodles",
+      "price": 100,
+      "quantity": 1,
+      "id": 15
+    },
+    {
+      "name": "chicken_noodles",
+      "price": 100,
+      "quantity": 1,
+      "id": 16
+    },
+    {
+      "name": "chicken_noodles",
+      "price": 100,
+      "quantity": 1,
+      "id": 17
+    }
+  ],
+  "selectedItems": [
+    {
+      "customerName": "",
+      "items": [
+        {
+          "name": "Meals",
+          "price": 70,
+          "quantity": 1,
+          "id": 10
+        },
+        {
+          "name": "Non_Veg_Biryani",
+          "price": 150,
+          "quantity": 1,
+          "id": 9
+        }
+      ],
+      "TotalPrice": 206.8,
+      "Discount": 22,
+      "Tax": 8.8,
+      "PriceValue": 220,
+      "id": 1
+    },
+    {
+      "customerName": "Lavanya",
+      "items": [
+        {
+          "name": "Meals",
+          "price": 70,
+          "quantity": 1,
+          "id": 10
+        },
+        {
+          "name": "Non_Veg_Biryani",
+          "price": 150,
+          "quantity": 1,
+          "id": 9
+        }
+      ],
+      "TotalPrice": 206.8,
+      "Discount": 22,
+      "Tax": 8.8,
+      "PriceValue": 220,
+      "id": 2
+    },
+    {
+      "customerName": "janaki",
+      "items": [
+        {
+          "name": "Chapathi",
+          "price": 30,
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "TotalPrice": 28.2,
+      "Discount": 3,
+      "Tax": 1.2,
+      "PriceValue": 30,
+      "id": 3
+    },
+    {
+      "customerName": "renu",
+      "items": [
+        {
+          "name": "Wada",
+          "price": 25,
+          "quantity": 1,
+          "id": 4
+        }
+      ],
+      "Discount": 0,
+      "Tax": 0,
+      "PriceValue": 0,
+      "id": 4
+    },
+    {
+      "customerName": "",
+      "items": [
+        {
+          "name": "Chapathi",
+          "price": 30,
+          "quantity": 1,
+          "id": 2
+        },
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "TotalPrice": 56.4,
+      "Discount": 6,
+      "Tax": 2.4,
+      "PriceValue": 60,
+      "id": 5
+    },
+    {
+      "customerName": "Pavani",
+      "items": [
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": 1,
+          "id": 3
+        },
+        {
+          "name": "Puri",
+          "price": 30,
+          "quantity": 1,
+          "id": 5
+        }
+      ],
+      "TotalPrice": 56.4,
+      "Discount": 6,
+      "Tax": 2.4,
+      "PriceValue": 60,
+      "id": 6
+    },
+    {
+      "customerName": "",
+      "items": [
+        {
+          "name": "Wada",
+          "price": 25,
+          "quantity": 1,
+          "id": 4
+        },
+        {
+          "name": "Puri",
+          "price": 30,
+          "quantity": 1,
+          "id": 5
+        }
+      ],
+      "TotalPrice": 51.7,
+      "Discount": 5.5,
+      "Tax": 2.2,
+      "PriceValue": 55,
+      "id": 7
+    },
+    {
+      "customerName": "janaki",
+      "items": [
+        {
+          "name": "Chapathi",
+          "price": 30,
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "TotalPrice": 28.2,
+      "Discount": 3,
+      "Tax": 1.2,
+      "PriceValue": 30,
+      "id": 8
+    },
+    {
+      "customerName": "kavya",
+      "items": [
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "TotalPrice": 28.2,
+      "Discount": 3,
+      "Tax": 1.2,
+      "PriceValue": 30,
+      "id": 9
+    },
+    {
+      "customerName": "janaki",
+      "items": [
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "TotalPrice": 28.2,
+      "Discount": 3,
+      "Tax": 1.2,
+      "PriceValue": 30,
+      "id": 10
+    },
+    {
+      "customerName": "Pavani",
+      "items": [
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": 1,
+          "id": 3
+        },
+        {
+          "name": "Wada",
+          "price": 25,
+          "quantity": 1,
+          "id": 4
+        }
+      ],
+      "TotalPrice": 51.7,
+      "Discount": 5.5,
+      "Tax": 2.2,
+      "PriceValue": 55,
+      "id": 11
+    },
+    {
+      "customerName": "Lavanya",
+      "items": [
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": 1,
+          "id": 3
+        },
+        {
+          "name": "Wada",
+          "price": 25,
+          "quantity": 1,
+          "id": 4
+        }
+      ],
+      "TotalPrice": 51.7,
+      "Discount": 5.5,
+      "Tax": 2.2,
+      "PriceValue": 55,
+      "id": 12
+    },
+    {
+      "customerName": "",
+      "items": [
+        {
+          "name": "Veg_Biryani",
+          "price": 90,
+          "quantity": "9",
+          "id": 8
+        },
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": "4",
+          "id": 3
+        }
+      ],
+      "TotalPrice": 1269,
+      "Discount": 135,
+      "Tax": 54,
+      "PriceValue": 1350,
+      "id": 13
+    },
+    {
+      "customerName": "",
+      "items": [
+        {
+          "name": "Non_Veg_Biryani",
+          "price": 150,
+          "quantity": 1,
+          "id": 9
+        },
+        {
+          "name": "Meals",
+          "price": 70,
+          "quantity": 1,
+          "id": 10
+        }
+      ],
+      "TotalPrice": 347.8,
+      "Discount": 37,
+      "Tax": 14.8,
+      "PriceValue": 370,
+      "id": 14
+    },
+    {
+      "customerName": "janaki",
+      "items": [
+        {
+          "name": "Chapathi",
+          "price": 30,
+          "quantity": 1,
+          "id": 2
+        }
+      ],
+      "TotalPrice": 28.2,
+      "Discount": 3,
+      "Tax": 1.2,
+      "PriceValue": 30,
+      "id": 15
+    },
+    {
+      "customerName": "",
+      "items": [
+        {
+          "name": "Chapathi",
+          "price": 30,
+          "quantity": 1,
+          "id": 2
+        },
+        {
+          "name": "Dosa",
+          "price": 30,
+          "quantity": "2",
+          "id": 3
+        }
+      ],
+      "TotalPrice": 169.2,
+      "Discount": 18,
+      "Tax": 7.2,
+      "PriceValue": 180,
+      "id": 16
+    }
+  ]
+}
