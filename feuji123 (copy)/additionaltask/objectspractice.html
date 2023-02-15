@@ -1,0 +1,118 @@
+<html>
+<body>
+<table  rows="4" cols="4" border="2">
+<tr>
+<th>Name</th>
+<th>Gender</th>
+<th>Age</th>
+<th>Button</th>
+</tr>
+<tbody id="demo"></tbody>
+</table>
+
+<div>
+<center>
+<form>
+Name:<input type="text"  id="id1"><br><br>
+Gender:<input type="text" id="id2" ><br><br>
+Age:<input type="text"  id="id3"><br><br>
+<input type="button" value="add"id="demo4" >
+</form>
+</center>
+</div>
+
+<script>
+//let deletebtn;
+const array1=[
+{
+name:"lavanya",
+gender:"female",
+age:20,
+},
+
+{
+name:"pavani",
+gender:"female",
+age:18,
+}
+
+];
+console.log(array1);
+array1.push(
+{
+name:"janu",
+gender:"female",
+age:20,
+});
+
+console.log(array1);
+console.log(array1[1].name);
+
+
+function msg(){
+for(let i=0;i<array1.length;i++){
+console.log(array1[i]);
+console.log(array1[i].name);
+console.log(array1[2].age);
+}}msg();
+
+function msg2(){
+for(let i=0;i<array1.length;i++){ 
+if(array1[i].name=="lavanya"){
+console.log(array1);
+}
+}
+}
+msg2();
+
+ var btn=document.getElementById("demo4");
+ var tableinput=document.getElementById("demo");
+function msg3(){
+
+for(let i=0;i<array1.length;i++){ 
+tableinput.innerHTML+=`<tr>
+
+<td>${array1[i].name}</td>
+
+<td>${array1[i].gender}</td>
+
+<td>${array1[i].age}</td>
+<td><button id="demo2" onclick="delete1(${i})" style="background-color:red" >Delete</button></td>
+</tr>`
+}
+}
+
+document.getElementById("demo4").onclick=function(){
+msg3();
+}
+
+ var lname =document.getElementById("id1");
+ var lgender =document.getElementById("id2");
+var lage =document.getElementById("id3");
+
+btn.addEventListener("click",function() {
+array1.push(
+{
+name:lname.value,
+gender:lgender.value,
+age:lage.value
+});
+
+tableinput.innerHTML="";
+msg3();
+});
+var btn2=document.getElementById("demo2");
+
+
+function delete1(i){
+tableinput.innerHTML="";
+//tr[i].innerHTML="";
+console.log("hii");
+array1.splice(i,1);
+msg3();
+}
+
+
+</script>
+</body>
+</html>
